@@ -51,6 +51,6 @@ void kill_process_by_name(char* name_str)
 
 int main()
 {
-    kill_process_by_name("gta_sa.exe");
+    kill_process_by_name(""); //Enter process name right there
     return 0;
 }
